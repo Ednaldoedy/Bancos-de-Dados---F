@@ -2,7 +2,7 @@ const url= "https://github.com/silviosnjr/CienciaDeDados-CriandoGraficosDinamico
 
 async function visualizarInformacoesGlobais (){
     const resposta = await fetch (url);
-    const dados = await resposta.json;
+    const dados = await resposta.json();
     console.log(dados);
 }
 
